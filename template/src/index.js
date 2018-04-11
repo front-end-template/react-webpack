@@ -4,7 +4,11 @@ import ReactDOM from 'react-dom'
 import '@/styles/main.scss'
 import Test from './components/test'
 
+if (module.hot) {
+  module.hot.accept()
+}
+
 ReactDOM.render(
-  <Test value="how are you" />,
+  <Test value="how are" />,
   document.getElementById('app'),
 )

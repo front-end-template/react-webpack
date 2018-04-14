@@ -60,6 +60,7 @@ module.exports = {
               ],
               plugins: [
                 'transform-decorators-legacy',
+                'react-hot-loader/babel',
               ],
               cacheDirectory: true,
             },
